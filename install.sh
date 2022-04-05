@@ -39,7 +39,7 @@ prompt () {
 
 # Welcome message
   prompt -s "\n\t          ****************************\n\t          *  pearOS Loader Theme  *\n\t          ****************************\n"
-prompt -s "\t\t \t Grub theme for pearOS  \n \n
+prompt -s "\t\t \t Grub theme for pearOS  \n \n"
 
 
  
@@ -50,7 +50,7 @@ function has_command() {
 }
 
 
-prompt -i "Press enter to begin installation${CDEF}(automatically install after 10s) ${b_CWAR}:${CDEF}"
+prompt -i "Press enter to begin installation${CDEF}\(automatically install after 10s\) ${b_CWAR}:${CDEF}"
 read -t10  
 
 #checking for root access
